@@ -85,6 +85,7 @@ button{
     letter-spacing: 0.1em;
     color: #FFFFFF;
     padding: 25px 41px;
+    cursor: pointer;
 }
 .bottom-desc{
     margin-left: 131px;
@@ -157,3 +158,133 @@ footer{
     line-height: 119%;
     color: #FFFFFF;
 }
+.footer-left>p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 162%;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.footer-right>a{
+    margin-right: 22px;
+}
+.footer-right>a:last-child{
+    margin-right: 0;
+}
+/*адаптив  */
+ @media(max-width:1024px){
+    .container{
+       padding: 0 15px; 
+    }
+ }
+ @media(max-width:997px){
+
+ }
+ @media(max-width:768px){
+    .achievements-box{
+        flex-wrap: wrap;
+    }
+    .box-item{
+        margin-bottom:20px;
+    }
+    .box-item:last-child{
+        margin: auto;
+    }
+    .bottom-desc{
+        margin-left: 28px;
+    }
+    .bottom-title{
+        font-size: 32px;
+        padding-bottom: 14px;
+    }
+    .bottom-text{
+    padding-bottom: 18px;
+    }
+ }
+ @media(max-width:480px){
+    .header-top{
+        flex-direction: column;   
+    }
+    .menu-link{
+        font-size: 12px;
+    }
+    .menu-item{
+        margin-right: 30px;
+    }
+    .menu{
+        margin-top: 20px;
+    }
+    .header-bottom{
+        margin-top: 44px;
+        padding-bottom: 44px;
+    }
+    .header-bottom>img{
+       display: none; 
+    }
+    .bottom-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .bottom-text{
+        text-align: center;
+    }
+    .me{
+        padding: 50px 0;   
+    }
+    .me-text{
+       max-width: 460px; 
+    }
+    .box-item:last-child{
+        margin: 0;
+    }
+    .achievements{
+        padding: 36 px 0;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+ }
+ @media(max-width:375px){
+   .header-top{
+    flex-direction: column;
+   }
+    .header-top>img{
+        align-content: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    .header-top{
+        align-items: center;
+    }
+    .menu-item{
+        margin-right: 0;
+    }
+    .bottom-desc{
+        margin-left: 0;
+    }
+    .me-text{
+       max-width: 370px;
+       margin-top: 20px;
+    }
+    .footer-right>a{
+        margin-right: 0;
+    }
+ }
+/* 1200 */
+/* 1024 */
+/* 997 */
+/* 768 */
+/* 480 */
+/* 375 */
+/* 360 */
+/* 320 */ 
